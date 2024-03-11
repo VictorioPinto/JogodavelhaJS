@@ -46,7 +46,7 @@ function calcular() {
     vitoriaX();
   }
 
-  if (
+  else if (
     (div1.textContent === "X" &&
       div4.textContent === "X" &&
       div7.textContent === "X") ||
@@ -60,7 +60,7 @@ function calcular() {
     vitoriaX();
   }
 
-  if (
+  else if (
     (div1.textContent === "X" &&
       div5.textContent === "X" &&
       div9.textContent === "X") ||
@@ -71,7 +71,7 @@ function calcular() {
     vitoriaX();
   }
 
-  if (
+  else if (
     (div1.textContent === "O" &&
       div2.textContent === "O" &&
       div3.textContent === "O") ||
@@ -85,7 +85,7 @@ function calcular() {
     vitoriaO();
   }
 
-  if (
+  else if (
     (div1.textContent === "O" &&
       div4.textContent === "O" &&
       div7.textContent === "O") ||
@@ -99,7 +99,7 @@ function calcular() {
     vitoriaO();
   }
 
-  if (
+  else if (
     (div1.textContent === "O" &&
       div5.textContent === "O" &&
       div9.textContent === "O") ||
@@ -110,7 +110,7 @@ function calcular() {
     vitoriaO();
   }
 
-  if (
+  else if (
     div1.textContent !== "" &&
     div2.textContent !== "" &&
     div3.textContent !== "" &&
