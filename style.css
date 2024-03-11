@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-family: "Fira Code", monospace;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#jogo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 50vh;
+  height: 50vh;
+  background-color: orange;
+}
+#jogo div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  font-size: 3em;
+}
+#jogo div:hover {
+  cursor: pointer;
+}
+#jogo div h1 {
+  text-align: center;
+}
+#restart {
+  padding: 2.5vh 5vh 2.5vh 5vh;
+  background-color: orange;
+  font-size: 1em;
+}
+#restart:hover {
+  cursor: pointer;
+}
+#vitoria {
+  font-size: 2em;
+}
